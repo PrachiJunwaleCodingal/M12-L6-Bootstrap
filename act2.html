@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ACT2- Scroll spy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+    <style>
+        body {
+            position: relative;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        #sec1 {
+            padding-top: 50px;
+            height: 500px;
+            color: white;
+            background-color: rgb(92, 196, 60);
+        }
+
+        #sec2 {
+            padding-top: 50px;
+            height: 500px;
+            color: rgb(213, 234, 237);
+            background-color: rgb(43, 170, 209);
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Interesting Facts</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sec1">Peacock</a></li>
+                        <li><a href="#sec2">Panda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="sec1" class="container-fluid">
+
+        <h3>Peacock</h3>
+        <h5>Peafowl is a common name for two bird species of the genus Pavo and one species of the closely related genus
+            Afropavo
+            within the tribe Pavonini of the family Phasianidae (the pheasants and their allies). Male peafowl are
+            referred to as
+            peacocks, and female peafowl are referred to as peahens.</h5>
+
+        <p>Scroll section to go to Next</p>
+
+    </div>
+    <div id="sec2" class="container-fluid">
+
+        <h3>Panda</h3>
+        <h5>The giant panda (Ailuropoda melanoleuca), also known as the panda bear or simply panda, is a bear species
+            endemic to
+            China. It is characterised by its white coat with black patches around the eyes, ears, legs and shoulders.
+            Its body is
+            rotund; adult individuals weigh 100 to 115 kg (220 to 254 lb) and are typically 1.2 to 1.9 m (3 ft 11 in to
+            6 ft 3 in)
+            long.</h6>
+
+            <p>Scroll section to go to Next</p>
+
+    </div>
+
+</body>
+
+</html>
